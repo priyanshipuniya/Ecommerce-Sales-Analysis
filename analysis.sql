@@ -18,3 +18,18 @@ SELECT MONTH(Order_Date) AS Month, SUM(Sales) AS Revenue
 FROM orders
 GROUP BY Month
 ORDER BY Month;
+-- Top 5 Customers by Revenue
+SELECT Customer_Name, SUM(Sales) AS Revenue
+FROM orders
+GROUP BY Customer_Name
+ORDER BY Revenue DESC
+LIMIT 5;
+
+-- Profit by Category
+SELECT Category, SUM(Profit) AS Total_Profit
+FROM orders
+GROUP BY Category
+ORDER BY Total_Profit DESC;
+
+SELECT Product_Name, (Profit/Sales)*100 AS Profit_Margin
+FROM orders;
