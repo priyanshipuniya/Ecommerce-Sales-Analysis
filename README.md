@@ -50,6 +50,8 @@ The insights from this project can help:
 - Increase profitability through data-driven decisions
 
 ---
+## 📊 Dashboard Preview
+![Dashboard](screenshots/dashboard1.png)
 
 ## 👩‍💻 Author
 Priyanshi Puniya
