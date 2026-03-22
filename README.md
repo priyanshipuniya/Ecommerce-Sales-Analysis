@@ -51,7 +51,7 @@ The insights from this project can help:
 
 ---
 ## 📊 Dashboard Preview
-![Dashboard](screenshots/dashboard1.png)
+![Dashboard](screenshotsdashboard1.png)
 
 ## 👩‍💻 Author
 Priyanshi Puniya
